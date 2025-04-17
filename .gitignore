@@ -1,0 +1,55 @@
+# Dataset directories
+RESIDE-6K/
+datasets/
+
+# Results and checkpoints
+/home/arnav/CVproj/D4/checkpoints/*/results/
+*.pth
+*.t7
+*.pkl
+weights/
+pretrained/
+
+# All image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.webp
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Misc
+.DS_Store
+Thumbs.db
+RESIDE-6K-20250407T044741Z-001.zip
