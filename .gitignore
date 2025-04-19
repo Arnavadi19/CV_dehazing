@@ -53,3 +53,5 @@ wheels/
 .DS_Store
 Thumbs.db
 RESIDE-6K-20250407T044741Z-001.zip
+trained_models/its_train_ffa_3_19.pk
+trained_models/ots_train_ffa_3_19.pk
