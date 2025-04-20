@@ -7,9 +7,9 @@ DATASET:  SOTS-indoor     #SOTS-indoor / others
 
 TRAIN_CLEAN_FLIST:
 TRAIN_HAZY_FLIST:
-TEST_HAZY_FLIST: ./datasets/quick_test_hazy.flist
-TEST_CLEAN_FLIST: ./datasets/quick_test_clean.flist
-TEST_CLEAN_PATH: ./examples/gt/
+TEST_HAZY_FLIST: /home/arnav/CVproj/D4/datasets/quick_test_hazy.flist
+TEST_CLEAN_FLIST: /home/arnav/CVproj/D4/datasets/quick_test_clean.flist
+TEST_CLEAN_PATH: /home/arnav/CVproj/D4/examples/gt
 VAL_HAZY_FLIST: 
 VAL_CLEAN_PATH: 
 

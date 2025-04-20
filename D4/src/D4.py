@@ -274,7 +274,7 @@ class D4():
                         if use_guided_filter:
                             predicted_depth = self.model.net_c2h.transmission_estimator.get_refined_transmission(clean_input_images, predicted_depth)
 
-                        for beta_in in [0.6,1.2,1.8, 3.0]:
+                        for beta_in in [0.6,1.2,1.8, 2.4, 3.0, 3.6, 4.2]:
 
                             predicted_results = self.model.forward_c2h_given_parameters(clean_input_images, predicted_depth, beta_in)
                             predicted_results = self.crop_result(predicted_results, h, w)

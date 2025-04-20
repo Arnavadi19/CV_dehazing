@@ -247,8 +247,10 @@ class Dataset(torch.utils.data.Dataset):
             gt_path = os.path.join(self.config.TRAIN_CLEAN_PATH, prefix+filename[-4:])
 
         elif self.split == 'pair_test':
-            prefix = str.split(filename,'_')[0]
-            gt_path = os.path.join(self.config.TEST_CLEAN_PATH, prefix+'.png')
+            #prefix = str.split(filename,'_')[0]
+            #gt_path = os.path.join(self.config.TEST_CLEAN_PATH, prefix+'.png')
+            base_name = os.path.splitext(filename)[0]  # Gets name without extension
+            gt_path = os.path.join(self.config.TEST_CLEAN_PATH, base_name + '.png')
 
 
         return gt_path

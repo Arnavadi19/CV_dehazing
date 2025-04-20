@@ -1,0 +1,13 @@
+todo:
+
+1. fix psnr and ssim calculation for both D4 and FFA
+2. compare outputs, metrics
+3. compare results on the edge cases
+4. downstream tasks (eg. yolo)
+5. test the models on videos
+
+
+
+20/04/25:
+1. compare metrics from d4 and ffa on both indoor and outdoor datasets
+2.
