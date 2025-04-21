@@ -55,3 +55,15 @@ Thumbs.db
 RESIDE-6K-20250407T044741Z-001.zip
 trained_models/its_train_ffa_3_19.pk
 trained_models/ots_train_ffa_3_19.pk
+videos/d4_dehazed.mp4
+ffa_its/metrics.npz
+ffa_ots/metrics.npz
+.gitignore
+videos/yolo_original_video.mp4
+videos/yolo_output_ffa.mp4
+.gitignore
+videos/yolo_output_d4.mp4
+videos/ffa_dehazed.mp4
+ffa_video_outdoor.mp4
+ffa_its.zip
+video20.zip
